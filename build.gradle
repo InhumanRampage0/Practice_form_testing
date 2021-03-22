@@ -1,5 +1,5 @@
 plugins {
-    id 'java-library'
+    id "java-library"
 }
 
 repositories {
@@ -24,14 +24,3 @@ test {
     useJUnitPlatform()
 }
 
-task one_test(type: Test) {
-    useJUnitPlatform {
-        includeTags 'one'
-    }
-}
-
-task without_one_test(type: Test) {
-    useJUnitPlatform {
-        excludeTags 'one'
-    }
-}

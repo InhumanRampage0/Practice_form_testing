@@ -16,7 +16,7 @@ public class BoxPracticeForm {
         $("#lastName").setValue("Pershko");
         $("#userEmail").setValue("Boduk99@mail.ru");
         $(byText("Male")).click();
-       // $("#gender-radio-1").doubleClick(); - как вариант.
+       // $("#gender-radio-1").doubleClick(); - как вариант.@
         $("#userNumber").setValue("0123456789");
 // dataPicker
         $("#dateOfBirthInput").click();
