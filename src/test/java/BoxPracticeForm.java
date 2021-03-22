@@ -49,8 +49,8 @@ public class BoxPracticeForm {
 
 
 }
-// Посмотрел у ребята варианты проверок из таблицы.
-// Возьму себе для исстории
+// Посмотрел у ребят варианты проверок из таблицы.
+// Возьму себе для истории
 //  $(".modal-header").shouldHave(text("Thanks for submitting the form"));
 //        $(byText(firstName + " " + lastName)).shouldBe(visible);
 //        $(byText(gender)).shouldBe(visible);
